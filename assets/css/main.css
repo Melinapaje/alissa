@@ -3604,34 +3604,5 @@ input, select, textarea {
 			}
 
 	} 
-	/* Choix de tailles de police */
-.font-small {
-	font-size: 0.8em;
-}
-
-.font-medium {
-	font-size: 1em;
-}
-
-.font-large {
-	font-size: 1.5em;
-}
-
-.font-xlarge {
-	font-size: 2em;
-}
-.row.gtr-150 {
-    display: flex;
-    align-items: center; /* Centre verticalement le contenu */
-}
-#three .row.gtr-150 {
-    align-items: flex-start;
-}
-@media (max-width: 600px) {
-  body {
-    font-size: 18px !important;
-  }
-}
-
 
 
