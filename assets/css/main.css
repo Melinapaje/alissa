@@ -3626,19 +3626,6 @@ input, select, textarea {
 			}
 
 	} 
-/* === Mes ajustements personnalisés pour mobile === */
-@media screen and (max-width: 736px) {
-  ul.major-icons {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1em;
-  }
 
-  ul.major-icons li {
-    padding: 0;
-    display: flex;
-    justify-content: center;
-  }
-}
 
 
