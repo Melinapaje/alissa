@@ -3541,5 +3541,10 @@ input, select, textarea {
 #three .row.gtr-150 {
     align-items: flex-start;
 }
+@media (max-width: 600px) {
+  body {
+    font-size: 18px; /* ou plus, selon tes goûts */
+  }
+}
 
 
