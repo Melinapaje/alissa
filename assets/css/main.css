@@ -3626,5 +3626,31 @@ input, select, textarea {
 			}
 
 	} 
+#one .row {
+  display: flex;
+  align-items: center; /* centre verticalement texte et image */
+  flex-wrap: wrap; /* pour que ça reste responsive */
+}
+#one .col-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#two .row {
+  display: flex;
+  align-items: center; /* centre verticalement les colonnes */
+  flex-wrap: wrap; /* garde la responsivité */
+}
+
+#two .col-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* centre le contenu à l’intérieur de chaque colonne */
+}
+#four .actions.special .button {
+  width: 200px; /* Ajuste à la largeur souhaitée */
+  text-align: center;
+}
+
 
 
