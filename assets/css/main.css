@@ -3543,8 +3543,9 @@ input, select, textarea {
 }
 @media (max-width: 600px) {
   body {
-    font-size: 18px; /* ou plus, selon tes goûts */
+    font-size: 18px !important;
   }
 }
+
 
 
