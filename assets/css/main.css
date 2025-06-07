@@ -3631,19 +3631,6 @@ input, select, textarea {
   ul.major-icons {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1em;
-  }
-
-  ul.major-icons li {
-    padding: 0;
-    display: flex;
-    justify-content: center;
-  }
-}
-@media screen and (max-width: 736px) {
-  ul.major-icons {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
     gap: 2em; /* espace entre les icônes */
     padding: 0;
     list-style: none;
@@ -3667,5 +3654,6 @@ input, select, textarea {
     font-size: inherit;
   }
 }
+
 
 
