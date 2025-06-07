@@ -3643,9 +3643,10 @@ input, select, textarea {
 @media screen and (max-width: 736px) {
   ul.major-icons {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 colonnes */
-    gap: 1em; /* espace entre les lignes et colonnes */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2em; /* espace entre les icônes */
     padding: 0;
+    list-style: none;
   }
 
   ul.major-icons li {
@@ -3655,15 +3656,15 @@ input, select, textarea {
     padding: 1em;
   }
 
-  ul.major-icons li .icon {
+  .icon.major {
+    font-size: 3em;  /* Ajuste la taille ici */
     height: auto;
     width: auto;
     line-height: normal;
-    font-size: 3em; /* adapte la taille ici si nécessaire */
   }
 
-  ul.major-icons li .icon:before {
-    font-size: inherit; /* pour suivre le font-size du parent */
+  .icon.major:before {
+    font-size: inherit;
   }
 }
 
