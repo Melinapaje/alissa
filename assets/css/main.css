@@ -3629,29 +3629,15 @@ input, select, textarea {
 /* === Mes ajustements personnalisés pour mobile === */
 @media screen and (max-width: 736px) {
   ul.major-icons {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
-    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
   }
 
   ul.major-icons li {
-    width: 50%; /* Deux colonnes */
+    padding: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 1em 0;
-  }
-
-  .icon.major {
-    font-size: 2.5em; /* Ajuste la taille ici si nécessaire */
-    line-height: 1;
-  }
-
-  .icon.major:before {
-    font-size: inherit;
   }
 }
 
