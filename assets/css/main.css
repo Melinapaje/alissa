@@ -3313,7 +3313,7 @@ input, select, textarea {
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 14pt;
+				font-size: 16pt;
 			}
 
 			h1 {
@@ -3383,7 +3383,7 @@ input, select, textarea {
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 14pt;
+				font-size: 16pt;
 			}
 
 			h1 {
@@ -3409,9 +3409,9 @@ input, select, textarea {
 			}
 
 				ul.major-icons li .icon {
-					height: 5em;
-					line-height: 5em;
-					width: 5em;
+					height: 4em;
+					line-height: 4em;
+					width: 4em;
 				}
 
 					ul.major-icons li .icon:before {
