@@ -3651,6 +3651,43 @@ input, select, textarea {
   width: 200px; /* Ajuste à la largeur souhaitée */
   text-align: center;
 }
+.info-card {
+  position: relative;
+  background: white;
+  padding: 2em 1.5em 1.5em;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  text-align: center;
+  margin-top: 3em;
+}
+
+.icon-circle {
+  width: 60px;
+  height: 60px;
+  background: #42585a; /* vert nature */
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+.card-content h3 {
+  margin-top: 1.5em;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.card-content p {
+  font-size: 0.95em;
+  line-height: 1.4em;
+}
 
 
 
