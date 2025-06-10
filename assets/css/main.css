@@ -3692,10 +3692,11 @@ input, select, textarea {
   line-height: 1.4em;
 }
 
+/* Divider with icon */
 .divider-with-icon {
   position: relative;
   margin: 1.5em auto 2em;
-  width: 100%;
+  width: 90%; /* change de 100% à 90% pour un meilleur rendu mobile */
   max-width: 300px;
   text-align: center;
 }
@@ -3704,22 +3705,39 @@ input, select, textarea {
   border: none;
   border-top: 1px solid #ccc;
   margin: 0;
+  width: 100%;
 }
 
 .divider-with-icon .icon {
   position: absolute;
-  top: 50%; /* place au milieu du <hr> */
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: white; /* ou transparent selon ton design */
+  background: white;
   padding: 0 0.4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .divider-with-icon .icon img {
-  height: 24px; /* ajuste selon la taille du PNG */
+  max-height: 24px;
+  max-width: 100%;
+  height: auto;
   width: auto;
   display: block;
 }
+
+@media (max-width: 400px) {
+  .divider-with-icon {
+    max-width: 90%;
+  }
+
+  .divider-with-icon .icon img {
+    max-height: 20px; /* réduire légèrement le logo */
+  }
+}
+
 
 .fixed-bottom-button {
   position: fixed;
