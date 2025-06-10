@@ -2613,6 +2613,14 @@ ul.major-icons li .icon:before {
 	line-height: inherit;
 }
 
+/* Responsive fallback to 1 column on very small screens */
+@media screen and (max-width: 400px) {
+	ul.major-icons {
+		grid-template-columns: 1fr;
+	}
+}
+
+
 /* Table */
 
 	.table-wrapper {
