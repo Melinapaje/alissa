@@ -2832,7 +2832,7 @@ ul.major-icons li .icon:before {
 			background-color: #333;
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed,							fixed;
-			background-image: url("images/overlay1.png"), url("../../images/header.jpg");
+			background-image: url("images/overlay4.png"), url("../../images/header10.png");
 			background-size: auto,							cover;
 		}
 
@@ -3790,6 +3790,13 @@ ul.major-icons li .icon:before {
   .fixed-bottom-button {
     display: none;
   }
+}
+
+.footer-logo {
+  width: 10vw;       /* largeur responsive */
+  max-width: 50px;  /* taille max */
+  height: auto;      /* hauteur automatique pour garder les proportions */
+  margin-bottom: 1em;
 }
 
 
