@@ -3793,11 +3793,11 @@ ul.major-icons li .icon:before {
 }
 
 .footer-logo {
-  width: 10vw;       /* largeur responsive */
-  max-width: 50px;  /* taille max */
-  height: auto;      /* hauteur automatique pour garder les proportions */
+  width: min(10vw, 50px);  /* prendra le plus petit entre 10vw et 50px */
+  height: auto;
   margin-bottom: 1em;
 }
+
 
 
 
